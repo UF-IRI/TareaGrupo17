@@ -1,6 +1,6 @@
 # `Hello World my Git` - Grupo `17`
     Tarea 25/09/22
-    Esto funciona? probs not ://
+    
 ### Integrantes
 - Sol Fiterman
 - Valentina Gayoso
