@@ -1,4 +1,4 @@
-# `Nombre Proyecto` - Grupo `17`
+# `Hello World my Git` - Grupo `17`
     Tarea 25/09/22
 
 ### Integrantes
