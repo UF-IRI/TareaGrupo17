@@ -7,7 +7,8 @@ int codigo1()
 	int n;
 	do
 	{
-		std::cout << "Ingrese la cantidad de números que desea comparar para saber cual es el mayor: "; std::cin >> n;
+		std::cout << "Ingrese la cantidad de números que desea comparar para saber cual es el mayor: "; 
+		std::cin >> n;
 	} while (n < 1);
 
 
@@ -18,12 +19,15 @@ int codigo1()
 		std::cout << "Ingrese un número: ";
 		std::cin>>N[i];
 		if (N[i] > max || N[0])
-{
+		{
 			max = N[i];
-		}
+		}	
 	}
 	std::cout << "El numero Maximo es: " << max;
 	delete []N;
 	N = NULL;
+	
+	return 0;
+
 }
 
