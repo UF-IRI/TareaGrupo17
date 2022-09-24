@@ -1,10 +1,10 @@
+//¿Que hace? Encontrar el num máximo entre n números 
 #include "codigo1.h" 
 
 int codigo1()
 {
 	int max;
 	int n;
-	max = 0;
 	do
 	{
 		std::cout << "Ingrese la cantidad de números que desea comparar para saber cual es el mayor: "; std::cin >> n;
@@ -17,7 +17,7 @@ int codigo1()
 	{
 		std::cout << "Ingrese un número: ";
 		std::cin>>N[i];
-		if (N[i] > max)
+		if (N[i] > max || N[0])
 {
 			max = N[i];
 		}
