@@ -4,6 +4,6 @@ namespace foobar
 {
     int Example::getValue() const
     {
-        return 98;
+        return 99;
     }
 }
