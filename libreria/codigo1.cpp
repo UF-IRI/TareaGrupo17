@@ -4,16 +4,10 @@
 int codigo1()
 {
 	int max;
-	int n;
-	do
-	{
-		std::cout << "Ingrese la cantidad de números que desea comparar para saber cual es el mayor: "; 
-		std::cin >> n;
-	} while (n < 1);
-
+	int n=2;
 
 	int *N = new int[n];
-
+    cout<<"Encontrar el maximo entre" << n << "numeros" << endl;
 	for (int i = 0; i < n; i++)
 	{
 		std::cout << "Ingrese un número: ";
