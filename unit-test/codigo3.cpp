@@ -4,5 +4,5 @@ using namespace testing;
 
 TEST(Codigo3tests, intento_correcto)
 {
-    ASSERT_THAT(codigo3(), Eq(8));
+    ASSERT_THAT(codigo3(), Eq(1));
 }

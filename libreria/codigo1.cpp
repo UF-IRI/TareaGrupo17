@@ -1,4 +1,4 @@
-//¿Que hace? Encontrar el num máximo entre n números 
+//¿Que hace? Encontrar el num máximo entre n=2 números (n se puede cambiar)
 #include "codigo1.h" 
 
 int codigo1()
