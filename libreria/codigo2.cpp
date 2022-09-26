@@ -17,6 +17,6 @@ int codigo2()
       
     cout<< *p << "*" << *q << "=" << (*p)*(*q) << endl;
     
-    return 0;
+    return (*p)*(*q);
     
 }
