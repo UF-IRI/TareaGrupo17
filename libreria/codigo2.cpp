@@ -14,9 +14,12 @@ int codigo2()
     cout<< "ingrese el segundo numero a multiplicar: "<<endl;
     cin>> num2;
     q=&num2;
-      
-    cout<< *p << "*" << *q << "=" << (*p)*(*q) << endl;
     
-    return (*p)*(*q);
+    int multi = (*p)*(*q);
+    cout<< *p << "*" << *q << "=" << (*p)*(*q) << endl;
+    if(multi==(*p)*(*q))
+        return 0;
+    else
+        return -1;
     
 }

@@ -9,9 +9,9 @@ int main(int argc, char** argv)
 {
     foobar::Example example{};
     std::cout << "Example.getValue() => " << example.getValue() << std::endl;
-    //codigo1();
+    int cod1= codigo1(3,4);
     //codigo2();
-    codigo3();
+   // codigo3();
 
     return EXIT_SUCCESS;
 }

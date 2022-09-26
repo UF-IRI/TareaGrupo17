@@ -4,7 +4,7 @@
 int codigo3()
 {
     int num1, num2, suma;
-    cout<< "ingrese 2 numeros que al su suma equivalga a  8..." <<endl;
+    cout<< "ingrese 2 numeros que al su suma equivalga a 8" <<endl;
     cout<< "ingrese su primer numero para sumar: " <<endl;
     cin>> num1;
     cout<< "ingrese su segundo numero para sumar: " <<endl;

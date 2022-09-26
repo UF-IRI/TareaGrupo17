@@ -2,8 +2,7 @@
 #include "codigo2.h"
 using namespace testing;
 
-TEST(Codigo2tests, example1)
+TEST(Codigo2tests, intento_correcto)
 {
-    
-
+    ASSERT_THAT(codigo2(), Eq(0));
 }
