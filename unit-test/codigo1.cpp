@@ -2,7 +2,7 @@
 #include "codigo1.h"
 using namespace testing;
 
-TEST(Codigo1tests, example1)
+TEST(Codigo1tests, example1) //verificamos que identifique correctamente el numero mayor
 {
     ASSERT_THAT(codigo1(2,7), 7);
     ASSERT_THAT(codigo1(2,9), 9);

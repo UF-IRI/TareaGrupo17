@@ -17,7 +17,7 @@ int codigo2()
     
     int multi = (*p)*(*q);
     cout<< *p << "*" << *q << "=" << (*p)*(*q) << endl;
-    if(multi==(*p)*(*q))
+    if(multi==(*p)*(*q)) //si la multiplicacion dio de manera correcta
         return 0;
     else
         return -1;
