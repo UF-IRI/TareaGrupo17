@@ -13,11 +13,11 @@ int codigo3()
     if(suma==8)
         {
             cout<< "Lo lograste!! La suma es = " << suma <<endl;
-            return 8;
+            return 1; //pasa el test porque la suma es 8
         }
     else
         {
             cout<<"la suma no es igual a 8, suma = " <<suma << endl << " tenes que practicar un poco mas ://" <<endl;
-            return suma;
+            return suma; // el test va a fallar pq no sumo 8
         }
 }
